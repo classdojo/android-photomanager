@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:fab="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/cwac_cam2_black">
+
+	<TextView
+		android:id="@+id/cwac_cam2_fragment_confirmation_preview_title"
+		android:layout_width="match_parent"
+		android:layout_height="?android:attr/actionBarSize"
+		android:gravity="center"
+		android:text="@string/cwac_cam2_preview"
+		android:textColor="@color/cwac_cam2_white"
+		android:textSize="@dimen/cwac_cam2_fragment_confirm_preview_size"/>
+
+	<ImageView
+		android:id="@+id/cwac_cam2_fragment_confirmation_preview_image"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@+id/cwac_cam2_fragment_confirmation_btn_layout"
+		android:layout_alignParentTop="true"
+		android:layout_below="@id/cwac_cam2_fragment_confirmation_preview_title"/>
+
+	<VideoView
+		android:id="@+id/cwac_cam2_fragment_confirmation_preview_video"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_above="@+id/cwac_cam2_fragment_confirmation_btn_layout"
+		android:layout_below="@id/cwac_cam2_fragment_confirmation_preview_title"
+		android:layout_centerInParent="true"
+		android:visibility="gone"/>
+
+	<LinearLayout
+		android:id="@+id/cwac_cam2_fragment_confirmation_btn_layout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/cwac_cam2_fragment_confirmation_confirm_btn"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="confirm"/>
+
+		<Button
+			android:id="@+id/cwac_cam2_fragment_confirmation_retake_btn"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="retake"/>
+	</LinearLayout>
+</RelativeLayout><!-- From: file:/home/jitpack/build/cam2/src/main/res/layout/cwac_cam2_confirm_fragment.xml -->

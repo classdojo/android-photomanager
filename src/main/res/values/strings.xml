@@ -1,0 +1,5 @@
+<resources>
+	<string name="app_name">PhotoManager</string>
+	<string name="camera">Camera</string>
+	<string name="camcorder">Camcorder</string>
+</resources>
