@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/mikechang/dev/android-photomanager/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/mikechang/dev/android-photomanager/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
         "merged": "/Users/mikechang/dev/dojo-android/photomanager/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
         "source": "/Users/mikechang/dev/dojo-android/photomanager/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color-v23/abc_color_highlight_material.xml"
     }
